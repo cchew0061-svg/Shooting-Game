@@ -14,6 +14,9 @@ public class GameStart : MonoBehaviour
     void Start()
     {
         inputManager = GameObject.Find("player").GetComponent<InputManager>();
+
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
     }
 
     //enables onfoot action map, disables startgame action map, removes startscreenui and playerplatform from the scene, enables the spawner
