@@ -13,9 +13,6 @@ Download the most recent release, unzip and run Shooting Game.exe
 - Healing and reloading weapons
 - Controls in the start screen
 
-## Tech
+## Technologies
 - Unity
 - C#
-
-## Credits
-- Cassandra Chew
